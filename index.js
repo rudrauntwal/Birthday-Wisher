@@ -39,7 +39,7 @@ var hitMe = $(".btn");
 hitMe.on("click", function () {
   hitMe.hide();
   hitMe.after(
-    ' <audio class="sound" controls autoplay loop><source src="../music/birthdaySong.mp3" /></audio>'
+    ' <audio class="sound" controls autoplay loop><source src="https://github.com/rudrauntwal/birthdaySong/raw/main/birthdaySong.mp3/" /></audio>'
   );
 });
 
