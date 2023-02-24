@@ -1,6 +1,8 @@
 var birth = prompt("Happy Birthday Dear... please Enter Your Name");
 // var birth = "Rudresh";
-
+if (birth != null) {
+  $("title").text(birth + "'s Birthday");
+}
 birth = birth.toUpperCase();
 
 var hitMe = $(".btn");
