@@ -1,0 +1,91 @@
+.container-fluid {
+  margin-top: 5%;
+}
+.letter {
+  text-align: center;
+  padding-left: 11%;
+}
+.letter-decoration {
+  font-size: 7rem;
+  /* font-family: "Tilt Prism", cursive; */
+  font-family: "Lobster", cursive;
+  color: #ff0000;
+  text-shadow: 4px 2px #000000;
+}
+
+.body-background {
+  background-image: url("../images/birthday.jpg");
+}
+
+h1,
+h2 {
+  display: inline;
+}
+.heading-container {
+  margin-top: 5%;
+  margin-left: 3%;
+}
+.heading {
+  font-size: 5rem;
+  font-family: "Lobster", cursive;
+  color: #ffdf4f;
+  text-shadow: 0.1em 0.1em 0.15em #fca500;
+}
+.btn {
+  font-family: "Lobster", cursive;
+  font-size: 2.5rem;
+  padding: 2% 4%;
+  position: absolute;
+  right: 25%;
+  top: 20%;
+  left: 25%;
+}
+.sound {
+  background-color: #fca500;
+  position: absolute;
+  right: 7%;
+  top: 7%;
+  padding: 1% 1%;
+  border-radius: 10px;
+}
+.btn-shadow {
+  box-shadow: 4px 6px #000;
+  text-shadow: 1px 2px teal;
+  background-image: linear-gradient(45deg, #f5af00, #aabdb5);
+  color: #cf252b;
+}
+body {
+  background-image: linear-gradient(100deg, #ff0025, #fb7a74);
+}
+
+@media (max-width: 1000px) {
+  .btn {
+    font-size: 3.5rem;
+    padding: 3% 4%;
+    right: 20%;
+    top: 25%;
+    left: 20%;
+  }
+  .btn-shadow {
+    box-shadow: 6px 8px #000;
+  }
+  .heading-container {
+    margin-top: 10%;
+    margin-left: 6%;
+  }
+  .container-fluid {
+    margin-top: 7%;
+    margin-left: 6%;
+  }
+  .wishes {
+    margin-top: 15%;
+    margin-left: 6%;
+  }
+
+  .wishes-heading {
+    font-size: 5rem;
+    font-family: "Lobster", cursive;
+    color: #cf252b;
+    text-shadow: 0.1em 0.1em 0.15em #ce454c;
+  }
+}
